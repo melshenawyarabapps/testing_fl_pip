@@ -15,9 +15,10 @@ void pipMain() {
   runApp(ClipRRect(
     borderRadius: BorderRadius.circular(12),
     child: MaterialApp(
-        debugShowCheckedModeBanner: false,
-        theme: ThemeData.light(useMaterial3: true),
-        darkTheme: ThemeData.dark(useMaterial3: true),
-        home: const PiPMainApp()),
+      debugShowCheckedModeBanner: false,
+      theme: ThemeData.light(useMaterial3: true),
+      darkTheme: ThemeData.dark(useMaterial3: true),
+      home: const PiPMainApp(),
+    ),
   ));
 }
